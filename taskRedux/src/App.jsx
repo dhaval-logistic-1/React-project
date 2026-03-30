@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import DataPrint from "./components/DataPrint";
 
 const App = () => {
   return (
    <>
     <Navbar/>
-    <h1>Dhaval Parmar</h1>
    </>
   );
 };

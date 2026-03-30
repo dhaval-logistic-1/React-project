@@ -6,6 +6,7 @@ import radioReducer from "./features/radioSlice.js";
 import checkboxReducer from "./features/checkboxSlice.js";
 import selectReducer from "./features/selectSlice.js";
 import tabReducer from "./features/tabSlice.js";
+import apidataReducer from "./features/apidataSlice.js";
 
 
 const store = configureStore({
@@ -15,6 +16,7 @@ const store = configureStore({
     checkbox: checkboxReducer,
     select: selectReducer,
     tab: tabReducer,
+    user: apidataReducer,
   },
 });
 

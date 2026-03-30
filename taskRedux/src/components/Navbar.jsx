@@ -10,6 +10,7 @@ import Select from "./Select";
 import Tab1 from "./Tabs/Tab1";
 import Tab2 from "./Tabs/Tab2";
 import Tab3 from "./Tabs/Tab3";
+import DataPrint from "./DataPrint";
 
 const Navbar = () => {
   return (
@@ -20,6 +21,7 @@ const Navbar = () => {
         <Link to="/select">Select</Link>
         <Link to="/checkbox">CheckBox</Link>
         <Link to="/radio">Radio</Link>
+        <Link to="/dataprint">DataPrint</Link>
       </div>
 
       
@@ -35,6 +37,7 @@ const Navbar = () => {
         <Route path="/select" element={<Select />} />
         <Route path="/checkbox" element={<CheckBox />} />
         <Route path="/radio" element={<Radio />} />
+        <Route path="/dataprint" element={<DataPrint />} />
       </Routes>
     </>
   );
